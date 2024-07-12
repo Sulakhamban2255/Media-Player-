@@ -1,5 +1,162 @@
+// import React from "react";
+// import { Row, Col } from "react-bootstrap";
+// import { Link } from "react-router-dom";
+// import Card from "react-bootstrap/Card";
+// import Button from "react-bootstrap/Button";
+
+// function Landing() {
+//   return (
+//     <div className="container-fluid p-5">
+//       <Row className="align-items-center">
+//         <Col
+//           sm={12}
+//           md={6}
+//           className="d-flex flex-column justify-content-center p-5"
+//         >
+//           <h1 className="display-4">Media Player</h1>
+//           <p className="lead">
+//             Media Player is a web application designed to enhance the way you
+//             manage and enjoy YouTube videos. Whether you're a content creator, a
+//             video enthusiast, or someone who likes to keep their favorite videos
+//             organized, this platform offers a seamless experience for uploading,
+//             playing, and categorizing YouTube videos.
+//           </p>
+//           <Link
+//             to="/home"
+//             className="btn btn-success btn-lg shadow rounded-pill mt-3"
+//           >
+//             Let's Go
+//           </Link>
+//         </Col>
+//         <Col sm={12} md={6} className="text-center">
+//           <img
+//             src="https://cdni.iconscout.com/illustration/premium/thumb/media-player-8044271-6369983.png"
+//             alt="Media Player Illustration"
+//             className="img-fluid"
+//           />
+//         </Col>
+//       </Row>
+//       <div className="mt-5 p-5 bg-light">
+//         <h1 className="text-center text-info">Features</h1>
+//         <div className="d-flex justify-content-around mt-5">
+//           <Card
+//             style={{ width: "18rem", height: "450px" }}
+//             className="shadow-sm border-0"
+//           >
+//             <Card.Img
+//               variant="top"
+//               height="200px"
+//               src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExdjNoa3ZsZ2E4Y2hzNjQ1Y3pobHdkNHczenlpYzJrcXpob2JucGMzaSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/WFmjWifrj9DJ50YaXj/giphy.webp"
+//             />
+//             <Card.Body>
+//               <Card.Title>Manage Videos</Card.Title>
+//               <Card.Text
+//                 style={{
+//                   overflow: "hidden",
+//                   textOverflow: "ellipsis",
+//                   textAlign: "justify",
+//                 }}
+//               >
+//                 section allows you to efficiently organize and oversee your
+//                 video content. With a user-friendly interface, you can easily
+//                 upload, edit, and delete videos, ensuring your collection is
+//                 always up-to-date and relevant. Key features include:
+//               </Card.Text>
+//             </Card.Body>
+//           </Card>
+//           <Card
+//             style={{ width: "18rem", height: "450px" }}
+//             className="shadow-sm border-0"
+//           >
+//             <Card.Img
+//               variant="top"
+//               height="200px"
+//               src="https://cdn.dribbble.com/users/80138/screenshots/1688685/media/fa7f3804d8eb7eb6be2885ac4178c90b.gif"
+//             />
+//             <Card.Body>
+//               <Card.Title>Upload Video</Card.Title>
+//               <Card.Text
+//                 style={{
+//                   overflow: "hidden",
+//                   textOverflow: "ellipsis",
+//                   textAlign: "justify",
+//                 }}
+//               >
+//                 Add new content to your platform with a simple upload process.
+//                 Support for various video formats ensures compatibility and ease
+//                 of use.
+//               </Card.Text>
+//             </Card.Body>
+//           </Card>
+//           <Card
+//             style={{ width: "18rem", height: "450px" }}
+//             className="shadow-sm border-0"
+//           >
+//             <Card.Img
+//               variant="top"
+//               height="200px"
+//               src="https://cliply.co/wp-content/uploads/2019/07/371907120_YOUTUBE_ICON_400px.gif"
+//             />
+//             <Card.Body>
+//               <Card.Title>Watch History</Card.Title>
+//               <Card.Text
+//                 style={{
+//                   overflow: "hidden",
+//                   textOverflow: "ellipsis",
+//                   textAlign: "justify",
+//                 }}
+//               >
+//                 Stay organized and effortlessly keep track of your previously
+//                 watched videos with our comprehensive Watch History feature.
+//                 Whether you’re revisiting a tutorial, catching up on your
+//                 favorite series, or looking for that memorable clip you saw last
+//                 week and save it here.....
+//               </Card.Text>
+//             </Card.Body>
+//           </Card>
+//         </div>
+//       </div>
+//       <div className="mt-5 p-5">
+//         <Row>
+//           <Col
+//             sm={12}
+//             md={7}
+//             style={{
+//               overflow: "hidden",
+//               textOverflow: "ellipsis",
+//               textAlign: "justify",
+//             }}
+//           >
+//             <h3 className="text-info">Simple and Fast</h3>
+//             <p className="" style={{ fontSize: "25px" }}>
+//               Uploading videos quickly and efficiently is essential for any
+//               modern web application that deals with multimedia content. Here
+//               are some key points and strategies to achieve simple and fast
+//               video uploads
+//             </p>
+//           </Col>
+//           <Col sm={12} md={5}>
+//             <iframe
+//               width="100%"
+//               height="315"
+//               src="https://www.youtube.com/embed/tsu01TR7Ofk?si=JW2yjJYQqXmOYWoN"
+//               title="YouTube video player"
+//               frameBorder="0"
+//               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+//               referrerPolicy="strict-origin-when-cross-origin"
+//               allowFullScreen
+//             ></iframe>
+//           </Col>
+//         </Row>
+//       </div>
+//     </div>
+//   );
+// }
+
+// export default Landing;
+
 import React from "react";
-import { Row, Col } from "react-bootstrap";
+import { Row, Col, Container } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
@@ -38,117 +195,82 @@ function Landing() {
       </Row>
       <div className="mt-5 p-5 bg-light">
         <h1 className="text-center text-info">Features</h1>
-        <div className="d-flex justify-content-around mt-5">
-          <Card
-            style={{ width: "18rem", height: "450px" }}
-            className="shadow-sm border-0"
-          >
+        <div className="d-flex flex-wrap justify-content-around mt-5">
+          <Card style={{ width: "18rem" }} className="shadow-sm border-0 mb-4">
             <Card.Img
               variant="top"
-              height="200px"
               src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExdjNoa3ZsZ2E4Y2hzNjQ1Y3pobHdkNHczenlpYzJrcXpob2JucGMzaSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/WFmjWifrj9DJ50YaXj/giphy.webp"
+              className="card-img-top"
             />
             <Card.Body>
               <Card.Title>Manage Videos</Card.Title>
-              <Card.Text
-                style={{
-                  overflow: "hidden",
-                  textOverflow: "ellipsis",
-                  textAlign: "justify",
-                }}
-              >
-                section allows you to efficiently organize and oversee your
+              <Card.Text>
+                This section allows you to efficiently organize and oversee your
                 video content. With a user-friendly interface, you can easily
                 upload, edit, and delete videos, ensuring your collection is
-                always up-to-date and relevant. Key features include:
+                always up-to-date and relevant.
               </Card.Text>
             </Card.Body>
           </Card>
-          <Card
-            style={{ width: "18rem", height: "450px" }}
-            className="shadow-sm border-0"
-          >
+          <Card style={{ width: "18rem" }} className="shadow-sm border-0 mb-4">
             <Card.Img
               variant="top"
-              height="200px"
               src="https://cdn.dribbble.com/users/80138/screenshots/1688685/media/fa7f3804d8eb7eb6be2885ac4178c90b.gif"
+              className="card-img-top"
             />
             <Card.Body>
               <Card.Title>Upload Video</Card.Title>
-              <Card.Text
-                style={{
-                  overflow: "hidden",
-                  textOverflow: "ellipsis",
-                  textAlign: "justify",
-                }}
-              >
+              <Card.Text>
                 Add new content to your platform with a simple upload process.
                 Support for various video formats ensures compatibility and ease
                 of use.
               </Card.Text>
             </Card.Body>
           </Card>
-          <Card
-            style={{ width: "18rem", height: "450px" }}
-            className="shadow-sm border-0"
-          >
+          <Card style={{ width: "18rem" }} className="shadow-sm border-0 mb-4">
             <Card.Img
               variant="top"
-              height="200px"
               src="https://cliply.co/wp-content/uploads/2019/07/371907120_YOUTUBE_ICON_400px.gif"
+              className="card-img-top"
             />
             <Card.Body>
               <Card.Title>Watch History</Card.Title>
-              <Card.Text
-                style={{
-                  overflow: "hidden",
-                  textOverflow: "ellipsis",
-                  textAlign: "justify",
-                }}
-              >
+              <Card.Text>
                 Stay organized and effortlessly keep track of your previously
                 watched videos with our comprehensive Watch History feature.
-                Whether you’re revisiting a tutorial, catching up on your
-                favorite series, or looking for that memorable clip you saw last
-                week and save it here.....
               </Card.Text>
             </Card.Body>
           </Card>
         </div>
       </div>
-      <div className="mt-5 p-5">
+      <Container className="container-fluid">
+      <div className="mt-5 p-3">
         <Row>
-          <Col
-            sm={12}
-            md={6}
-            style={{
-              overflow: "hidden",
-              textOverflow: "ellipsis",
-              textAlign: "justify",
-            }}
-          >
+          <Col md={6} className="mb-2">
             <h3 className="text-info">Simple and Fast</h3>
-            <p className="text-justify" style = {{fontSize:'25px' , textAlign:"justify"}} >
+            <p style={{ textAlign: "justify" }}>
               Uploading videos quickly and efficiently is essential for any
               modern web application that deals with multimedia content. Here
               are some key points and strategies to achieve simple and fast
-              video uploads
+              video uploads.
             </p>
           </Col>
-          <Col sm={12} md={6}>
+          <Col md={6} className="mb-4">
             <iframe
-              width="100%"
-              height="315"
+            width={'100%'}
+            height={'100%'}
+              className=""
               src="https://www.youtube.com/embed/tsu01TR7Ofk?si=JW2yjJYQqXmOYWoN"
               title="YouTube video player"
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              referrerPolicy="strict-origin-when-cross-origin"
               allowFullScreen
             ></iframe>
           </Col>
         </Row>
       </div>
+      </Container>
+      
     </div>
   );
 }
