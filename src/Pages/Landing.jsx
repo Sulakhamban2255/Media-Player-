@@ -15,10 +15,11 @@ function Landing() {
         >
           <h1 className="display-4">Media Player</h1>
           <p className="lead">
-            Media player is a Lorem ipsum dolor sit amet consectetur adipisicing
-            elit. Ab doloribus placeat assumenda, vero qui nihil molestiae
-            veniam. Error voluptate soluta laudantium incidunt officiis aut!
-            Facere ducimus hic sint temporibus expedita!
+            Media Player is a web application designed to enhance the way
+            you manage and enjoy YouTube videos. Whether you're a content
+            creator, a video enthusiast, or someone who likes to keep their
+            favorite videos organized, this platform offers a seamless
+            experience for uploading, playing, and categorizing YouTube videos.
           </p>
           <Link
             to="/home"
