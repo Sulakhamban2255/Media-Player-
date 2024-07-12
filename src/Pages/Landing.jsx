@@ -15,11 +15,11 @@ function Landing() {
         >
           <h1 className="display-4">Media Player</h1>
           <p className="lead">
-            Media Player is a web application designed to enhance the way
-            you manage and enjoy YouTube videos. Whether you're a content
-            creator, a video enthusiast, or someone who likes to keep their
-            favorite videos organized, this platform offers a seamless
-            experience for uploading, playing, and categorizing YouTube videos.
+            Media Player is a web application designed to enhance the way you
+            manage and enjoy YouTube videos. Whether you're a content creator, a
+            video enthusiast, or someone who likes to keep their favorite videos
+            organized, this platform offers a seamless experience for uploading,
+            playing, and categorizing YouTube videos.
           </p>
           <Link
             to="/home"
@@ -39,7 +39,10 @@ function Landing() {
       <div className="mt-5 p-5 bg-light">
         <h1 className="text-center text-info">Features</h1>
         <div className="d-flex justify-content-around mt-5">
-          <Card style={{ width: "18rem" }} className="shadow-sm border-0">
+          <Card
+            style={{ width: "18rem", height: "450px" }}
+            className="shadow-sm border-0"
+          >
             <Card.Img
               variant="top"
               height="200px"
@@ -47,13 +50,24 @@ function Landing() {
             />
             <Card.Body>
               <Card.Title>Manage Videos</Card.Title>
-              <Card.Text>
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+              <Card.Text
+                style={{
+                  overflow: "hidden",
+                  textOverflow: "ellipsis",
+                  textAlign: "justify",
+                }}
+              >
+                section allows you to efficiently organize and oversee your
+                video content. With a user-friendly interface, you can easily
+                upload, edit, and delete videos, ensuring your collection is
+                always up-to-date and relevant. Key features include:
               </Card.Text>
             </Card.Body>
           </Card>
-          <Card style={{ width: "18rem" }} className="shadow-sm border-0">
+          <Card
+            style={{ width: "18rem", height: "450px" }}
+            className="shadow-sm border-0"
+          >
             <Card.Img
               variant="top"
               height="200px"
@@ -61,13 +75,23 @@ function Landing() {
             />
             <Card.Body>
               <Card.Title>Upload Video</Card.Title>
-              <Card.Text>
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+              <Card.Text
+                style={{
+                  overflow: "hidden",
+                  textOverflow: "ellipsis",
+                  textAlign: "justify",
+                }}
+              >
+                Add new content to your platform with a simple upload process.
+                Support for various video formats ensures compatibility and ease
+                of use.
               </Card.Text>
             </Card.Body>
           </Card>
-          <Card style={{ width: "18rem" }} className="shadow-sm border-0">
+          <Card
+            style={{ width: "18rem", height: "450px" }}
+            className="shadow-sm border-0"
+          >
             <Card.Img
               variant="top"
               height="200px"
@@ -75,9 +99,18 @@ function Landing() {
             />
             <Card.Body>
               <Card.Title>Watch History</Card.Title>
-              <Card.Text>
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+              <Card.Text
+                style={{
+                  overflow: "hidden",
+                  textOverflow: "ellipsis",
+                  textAlign: "justify",
+                }}
+              >
+                Stay organized and effortlessly keep track of your previously
+                watched videos with our comprehensive Watch History feature.
+                Whether you’re revisiting a tutorial, catching up on your
+                favorite series, or looking for that memorable clip you saw last
+                week and save it here.....
               </Card.Text>
             </Card.Body>
           </Card>
@@ -85,16 +118,21 @@ function Landing() {
       </div>
       <div className="mt-5 p-5">
         <Row>
-          <Col sm={12} md={6}>
+          <Col
+            sm={12}
+            md={6}
+            style={{
+              overflow: "hidden",
+              textOverflow: "ellipsis",
+              textAlign: "justify",
+            }}
+          >
             <h3 className="text-info">Simple and Fast</h3>
-            <p className="text-justify">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
-              quam expedita sit esse modi, consequuntur quisquam reprehenderit
-              nisi illum molestiae quasi voluptatibus tenetur mollitia. Ratione
-              est mollitia labore quod id! Lorem ipsum dolor sit amet
-              consectetur adipisicing elit. Nulla consectetur aliquid nemo
-              dignissimos quasi reprehenderit ex cumque, eius, esse atque velit
-              minus quod. Ea quo nostrum quam repudiandae et nemo!
+            <p className="text-justify" style = {{fontSize:'25px' , textAlign:"justify"}} >
+              Uploading videos quickly and efficiently is essential for any
+              modern web application that deals with multimedia content. Here
+              are some key points and strategies to achieve simple and fast
+              video uploads
             </p>
           </Col>
           <Col sm={12} md={6}>

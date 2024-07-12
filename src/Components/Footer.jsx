@@ -9,17 +9,14 @@ function Footer() {
         <Col md={4} className="mb-4">
           <h4 className="text-warning">Media Player</h4>
           <p style={{ textAlign: "justify" }}>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet,
-            dolorum repellendus, rerum nam nesciunt quis accusamus debitis quam
-            labore repudiandae quasi id? Facere eos, sint autem iure quidem
-            fugit rem? Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Reiciendis, illum doloremque vero eos vitae distinctio ullam nemo
-            molestias cupiditate fuga esse culpa impedit blanditiis perspiciatis
-            cum assumenda suscipit quidem mollitia. Lorem ipsum dolor sit amet
-            consectetur adipisicing elit. Mollitia molestiae expedita natus
-            sequi, repudiandae est asperiores consectetur voluptate velit
-            reprehenderit ut qui delectus dolorem sint quam possimus ad quas
-            vero?
+            Welcome to our Media Player website, the ultimate destination for
+            all your video browsing, storing, and uploading needs. Whether
+            you're a video enthusiast, content creator, or simply looking to
+            enjoy the best of online media, our platform offers a seamless and
+            feature-rich experience. Uploading videos quickly and efficiently is
+            essential for any modern web application that deals with multimedia
+            content. Here are some key points and strategies to achieve simple
+            and fast video uploads
           </p>
         </Col>
         <Col md={3} className="mb-4">
