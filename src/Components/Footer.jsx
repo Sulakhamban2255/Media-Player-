@@ -11,7 +11,7 @@ import { faEnvelope, faPhone } from "@fortawesome/free-solid-svg-icons";
 
 function Footer() {
   return (
-    <div className="container-fluid bg-dark text-light py-5">
+    <div className="container-fluid bg-dark text-light py-5 mt-5 border rounded">
       <Row className="d-flex justify-content-center">
         <Col md={4} className="mb-4">
           <h4 className="text-warning">Media Player</h4>
@@ -75,7 +75,7 @@ function Footer() {
           </div>
         </Col>
       </Row>
-      <div className="text-center mt-4">
+      <div className="text-center mt-2">
         <p className="mb-0">&copy; 2024 Media Player. All rights reserved.</p>
       </div>
     </div>

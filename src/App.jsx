@@ -7,6 +7,8 @@ import History from './Pages/History'
 import Header from './Components/Header'
 import Footer from './Components/Footer'
 import './bootstrap.min.css'
+import { ToastContainer } from 'react-toastify'
+import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -19,6 +21,7 @@ function App() {
   <Route path='/home' element={<Home/>} />
   <Route path='/his' element={<History/>} />
 </Routes>
+<ToastContainer/>
 <Footer/>
     </>
   )

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Row, Col } from "react-bootstrap";
 import AddVideo from "../Components/AddVideo";
 import VideoList from "../Components/VideoList";
@@ -6,6 +6,7 @@ import Category from "../Components/Category";
 import { Link } from "react-router-dom";
 
 function Home() {
+  const [addResponse, setAddResponse] = useState();
   return (
     <div className="container-fluid bg-light p-3">
       <div className="d-flex justify-content-between">
@@ -16,10 +17,10 @@ function Home() {
      
       <Row>
         <Col sm={12} md={1}>
-          <AddVideo />
+          <AddVideo setadd = {setAddResponse} />
         </Col>
         <Col sm={12} md={8}>
-          <VideoList />
+          <VideoList addres = {addResponse} />
         </Col>
         <Col sm={12} md={3}>
           <Category />

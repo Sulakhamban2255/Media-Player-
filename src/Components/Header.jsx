@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 function Header() {
   return (
     <>
-      <Navbar className="bg-dark">
+      <Navbar className="container-fluid bg-dark text-light border rounded">
         <Container>
           <Navbar.Brand href="#home">
             <Link to={"/"} className="text-decoration-none">
